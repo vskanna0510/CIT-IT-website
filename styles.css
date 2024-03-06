@@ -1,0 +1,245 @@
+body
+{
+ background-color:rgb(6,33,63);
+}
+
+.page
+{
+ width:1000px;
+ height:auto;
+}
+
+.header
+{
+ width:1000px;
+ height:100px
+}
+
+.header h1
+{
+ color:white;
+ float:left;
+}
+.header h3
+{
+ color:rgb(133,153,147);
+ float:left;
+ position:absolute;
+ top:50px;
+}
+
+.header .sublinks
+{
+ width:400px;
+ height:90px;
+ float:right;
+  margin-top:10px
+}
+
+.header .sublinks a
+{
+ color:white;
+ text-decoration:none;
+ position:relative;
+ top:25px;
+}
+
+.header .sublinks h4
+{
+ color:white;
+ float:left;
+ position:relative;
+ top:8px;
+ left:15px;
+}
+
+.header .sublinks input
+{
+ position:relative;
+ top:30px;
+ left:-10px;
+ border-radius:10px;
+}
+
+.linkspart
+{
+  width:1000px;
+  height:40px;
+  background-color:white;
+  border-radius:10px;
+  marign-top:10px;
+}
+
+.linkspart a
+{
+  color:rgb(6,33,63);
+  text-decoration:none;
+  font-size:120%;
+  position:relative;
+  top:8px;
+}
+
+.linkspart a:hover
+{
+  color:white;
+  background-color:rgb(6,33,63);
+  border-radius:10px;
+}
+
+.bodypart
+{
+  width:1000px;
+  height:600px;
+  background-color:white;
+  margin-top:10px;
+  border-radius:10px;
+  position:relative;
+}
+
+.bodypart .linkspart
+{
+  width:290px;
+  height:580px;
+  background-color:rgb(6,33,63);
+  border-radius:10px;
+  position:absolute;
+  left:10px;
+  top:10px;
+}
+
+
+.bodypart .linkspart h2
+{
+  color:white;
+}
+
+.bodypart .linkspart .links
+{
+  width:280px;
+  height:500px;
+  background-color:white;
+  border-radius:10px;
+} 
+
+.bodypart .linkspart .links .linkbox
+{
+  width:270px;
+  height:80px;
+  border-bottom-style:dotted;
+  position:relative;
+  top:10px;
+}
+
+
+
+.bodypart .linkspart .links .linkbox img
+{
+  float:left;
+}
+
+
+.imagebox
+{
+  width:1000px;
+  height:470px;
+  background-color:white;
+  border-radius:10px;
+  margin-top:10px;
+}
+
+.imagebox .images
+{
+  width:980px;
+  height:450px;
+  background-image:url('images1.jpg');
+  border-style:double;
+  border-width:2px;
+  margin-top:20px;
+  position:relative;
+  top:10px;
+}
+
+.imagebox .images:hover
+{
+  background-image:url('IT!.jpg');
+}
+.bodypart .contentpart
+{
+  width:390px;
+  height:580px;
+  background-color:rgb(6,33,63);
+  border-radius:10px;
+  position:absolute;
+  left:310px;
+  top:10px;
+}
+
+.bodypart .contentpart .content
+{
+  width:370px;
+  height:550px;
+  background-color:white;
+  border-radius:10px;
+  margin-top:15px;
+}
+.bodypart .contentpart .content h2
+{
+  color:rgb(6,33,63);
+  padding-top:15px;
+}
+
+.bodypart .contentpart .content p
+{
+  text-align:justify;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.bodypart .newspart
+{
+  width:280px;
+  height:580px;
+  background-color:rgb(6,33,63);
+  border-radius:10px;
+  position:absolute;
+  left:705px;
+  top:10px;
+}
+
+.bodypart .newspart h2
+{
+  color:white;
+}
+
+.bodypart .newspart .news
+{
+  width:270px;
+  height:500;
+  background-color:white;
+  border-radius:10px;
+  margin-top:5px;
+}
+
+.bodypart .newspart .news h4
+{
+  text-align:justify;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.awards
+{
+  width:1000px;
+  height:180px;
+  background-color:white;
+  border-radius:10px;
+  margin-top:10px;
+}
+
+.footer
+{
+  margin-top:30px;
+  margin-bottom:30px;
+  color:white;
+  font-size:120%;
+}
